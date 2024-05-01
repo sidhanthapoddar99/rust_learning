@@ -1,5 +1,5 @@
 
-<b> [<<Home](../Leactures.md) </b>
+<b> [<<Home](../Readme.md) </b>
 
 # Rust tools
 
