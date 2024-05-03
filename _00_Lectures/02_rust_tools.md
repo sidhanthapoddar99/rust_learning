@@ -55,3 +55,9 @@ The `cargo check` command is used to quickly check your code for errors, but it 
 ```bash
 cargo check
 ```
+
+## can we do cargo run without building?
+
+Yes, you can. The `cargo run` command will automatically build the project before running it. If the project has already been built and no changes have been made since the last build, `cargo run` will simply run the existing executable. If changes have been made, `cargo run` will first rebuild the project, incorporating the changes, before running it.
+
+you can also use the `cargo check` command to check your code for errors without producing an executable.
