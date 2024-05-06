@@ -3,14 +3,30 @@ Here's the updated summary of your instructions to create this file:
 1. Create a markdown file comparing Rust and Python.
 2. Use a shorter version with tables for comparison.
 3. Give code comparisons, but the code blocks should be divided into tables.
-4. Use heading 1 wherever necessary.
 5. Use default markdown everywhere.
 6. Use HTML only when comparing Python and Rust codes side by side. If there is no Python alternative, just write the Rust code and no need to put it in a table. Make a callout saying the Python alternative is not present.
 7. Feel free to add additional comparisons wherever necessary.
 8. Use markdown tables for comparison.
 9. Use HTML only when a code block is compared in a table. In HTML, use ```rust markdown for creating code blocks instead of HTML code blocks. Only the table should be in HTML if a code block is present.
 
-# Types of assignments
+
+<!-- create an index -->
+# Table of Contents
+- [Variables and Data Types Rust vs Python](#variables-and-data-types-rust-vs-python)
+  - [Types of assignments](#types-of-assignments)
+  - [Immutable variables](#immutable-variables)
+  - [Mutable variables](#mutable-variables)
+  - [Shadowing](#shadowing)
+  - [Scope](#scope)
+  - [Data Types](#data-types)
+  - [Scalar Types](#scalar-types)
+  - [Compound Types](#compound-types)
+  - [Vectors and Strings](#vectors-and-strings)
+  - [Type Casting](#type-casting)
+
+# Variables and Data Types Rust vs Python
+
+## Types of assignments
 
 | Rust                                                                         | Python                                                   |
 | ---------------------------------------------------------------------------- | -------------------------------------------------------- |
@@ -18,7 +34,7 @@ Here's the updated summary of your instructions to create this file:
 | Shadowing allows reusing variable names with different types.                | No equivalent to shadowing.                              |
 | Constants are declared using `const` and the type must be explicitly stated. | Constants are declared using `CONSTANT_NAME` convention. |
 
-# Immutable variables
+## Immutable variables
 
 > Python does not have immutable variables by default.
 
@@ -30,7 +46,7 @@ fn main() {
 }
 ```
 
-# Mutable variables
+## Mutable variables
 
 <table>
 <tr>
@@ -63,7 +79,7 @@ print(f"The value of x is: {x}")
 </tr>
 </table>
 
-# Shadowing
+## Shadowing
 
 > Python has no equivalent to shadowing.
 
@@ -79,7 +95,7 @@ fn main() {
 }
 ```
 
-# Scope
+## Scope
 
 | Rust                                                                          | Python                                                                           |
 | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
@@ -155,7 +171,7 @@ def main():
 
 </table>
 
-# Data Types
+## Data Types
 
 | Rust                                                                                                                 | Python                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
@@ -200,7 +216,7 @@ def main():
 
 </table>
 
-# Scalar Types
+## Scalar Types
 
 | Rust                                                                                             | Python                                  |
 | ------------------------------------------------------------------------------------------------ | --------------------------------------- |
@@ -305,7 +321,7 @@ def main():
 
 </table>
 
-# Compound Types
+## Compound Types
 
 | Rust                                   | Python                                             |
 | -------------------------------------- | -------------------------------------------------- |
@@ -405,7 +421,7 @@ def main():
 </tr>
 </table>
 
-# Vectors and Strings
+## Vectors and Strings
 
 | Rust                                        | Python                             |
 | ------------------------------------------- | ---------------------------------- |
@@ -460,7 +476,7 @@ def main():
 </table>
 
 
-# Type Casting
+## Type Casting
 
 <table>
 <tr>
