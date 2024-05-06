@@ -381,10 +381,10 @@ fn main() {
 
 </td> <td>
 
-    ```python
-    def main():
-        p = {"x": 1, "y": 2}
-    ```
+```python
+def main():
+    p = {"x": 1, "y": 2}
+```
 
 </td> </tr>
 
@@ -403,8 +403,7 @@ fn main() {
 }
 ```
 
-</td>
-<td>
+</td> <td>
 
 ```python
 class Direction:
