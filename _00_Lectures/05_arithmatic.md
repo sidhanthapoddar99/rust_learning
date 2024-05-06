@@ -21,6 +21,45 @@ fn main() {
 
 ```
 
+
+# Type conversion for arithmetic operations
+
+```rust
+
+    let x = 42 as i32;
+    let y = 6.0 as f64;
+
+    //let difference = x - y; // Error: mismatched types
+    let difference = x as f64 - y; // we can convert x to f64
+    println!("Difference: {}", difference);
+
+    let x: i32 = 42;
+    let y: f64 = 6.0;
+
+    let sum = x + y as i32; // we can convert y to i32
+    println!("Sum: {}", sum);
+
+```
+
+
+# overflow management
+
+```rust
+
+fn main() {
+    let x: u8 = 255;
+    //let y = x + 1; // Error: this operation will panic at runtime
+
+    // to allow overflow
+    let y = x.wrapping_add(1);
+    
+    println!("x: {}", x);
+    println!("y: {}", y);
+}
+
+```
+
+
 # Convert string to number
 
 ```rust

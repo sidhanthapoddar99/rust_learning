@@ -1,6 +1,14 @@
 
 <b> [<<Home](../Readme.md) </b>
 
+# Static Typing vs Dynamic Typing
+
+- **Static Typing**: The type of a variable is known at compile time. Eg: C, C++, Rust, Java, TypeScript
+- **Dynamic Typing**: The type of a variable is known at runtime. Eg: Python, Ruby, JavaScript
+
+
+
+
 # Basic of rust
 
 - staticlly and strong typed language
@@ -27,6 +35,8 @@
 2. Rust Install Docs: https://doc.rust-lang.org/book/ch01-01-installation.html
 3. Rust Installer Download Page: https://www.rust-lang.org/tools/install
 4. Learning https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ
+5. Playlist https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL
+6. Therory https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
 
 # Basic Syntax
 
