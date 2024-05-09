@@ -1,6 +1,15 @@
 <b> [<<Home](../Readme.md) </b>
 
 
+- [Basic operations](#basic-operations)
+- [Type conversion for arithmetic operations](#type-conversion-for-arithmetic-operations)
+- [overflow management](#overflow-management)
+- [Convert string to number](#convert-string-to-number)
+- [String operations](#string-operations)
+  - [String concatenation](#string-concatenation)
+  - [String formatting](#string-formatting)
+
+
 # Basic operations
 
 ```rust

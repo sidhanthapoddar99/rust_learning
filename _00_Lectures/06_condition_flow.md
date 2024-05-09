@@ -1,6 +1,16 @@
 <b> [<<Home](../Readme.md) </b>
 
 
+
+- [Operators present in Rust](#operators-present-in-rust)
+  - [Exception in comparision](#exception-in-comparision)
+  - [Compount Conditions](#compount-conditions)
+- [Control Flow](#control-flow)
+  - [`if` Expressions](#if-expressions)
+  - [`match` Expressions](#match-expressions)
+  - [Loops](#loops)
+
+
 # Operators present in Rust
 
 - **Arithmetic Operators**: `+`, `-`, `*`, `/`, `%`

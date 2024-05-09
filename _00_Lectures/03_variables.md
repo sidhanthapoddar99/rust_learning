@@ -1,5 +1,33 @@
 <b> [<<Home](../Readme.md) </b>
 
+
+- [Types of assignments](#types-of-assignments)
+  - [Immutable variables](#immutable-variables)
+  - [Mutable variables](#mutable-variables)
+  - [Shadowing](#shadowing)
+  - [Constants](#constants)
+  - [**Shadowing vs. mut**: Shadowing is different from marking a variable as mutable.\\](#shadowing-vs-mut-shadowing-is-different-from-marking-a-variable-as-mutable)
+- [Scope](#scope)
+  - [Defing own scope](#defing-own-scope)
+  - [Exterior and interior scopes](#exterior-and-interior-scopes)
+- [Data Types](#data-types)
+  - [Scalar Types](#scalar-types)
+    - [1. Integers](#1-integers)
+    - [2. Floating-point numbers](#2-floating-point-numbers)
+    - [3. Booleans](#3-booleans)
+    - [4. Characters](#4-characters)
+    - [Examples](#examples)
+  - [Compound Types](#compound-types)
+    - [Tuples](#tuples)
+    - [Arrays](#arrays)
+    - [Other Compound Types](#other-compound-types)
+    - [how to initialize and empty array and tuple](#how-to-initialize-and-empty-array-and-tuple)
+  - [Vector](#vector)
+    - [how to initialize range of intergers](#how-to-initialize-range-of-intergers)
+  - [String](#string)
+  - [Type Casting](#type-casting)
+
+
 # Types of assignments
 
 ## Immutable variables
@@ -336,6 +364,9 @@ For tuple we need to manually initialize all the value and cannot do auto initri
     }
 ```
 
+
+
+
 ## Vector
 
 Vectors are similar to arrays, but they can grow or shrink in size.\
@@ -350,6 +381,14 @@ To create a new, empty vector, you can call the `Vec::new` function.
         let v: Vec<i32> = vec![1, 2, 3];
     }
 ```
+### how to initialize range of intergers
+
+```rust
+    fn main() {
+        let arr: Vec<i32> = (1..5).collect();
+    }
+```
+
 
 ## String
 

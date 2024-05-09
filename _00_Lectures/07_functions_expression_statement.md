@@ -1,5 +1,14 @@
 <b> [<<Home](../Readme.md) </b>
 
+
+- [Functions](#functions)
+- [Returning Values](#returning-values)
+- [Pass by Reference](#pass-by-reference)
+- [Mutable References](#mutable-references)
+- [Statenments and Expressions](#statenments-and-expressions)
+- [Other note](#other-note)
+
+
 # Functions
 
 The `main` function is the entry point for the program. The `fn` keyword is used to declare functions.

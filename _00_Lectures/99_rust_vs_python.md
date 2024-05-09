@@ -12,6 +12,7 @@ Here's the updated summary of your instructions to create this file:
 
 <!-- create an index -->
 # Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Variables and Data Types Rust vs Python](#variables-and-data-types-rust-vs-python)
   - [Types of assignments](#types-of-assignments)
   - [Immutable variables](#immutable-variables)

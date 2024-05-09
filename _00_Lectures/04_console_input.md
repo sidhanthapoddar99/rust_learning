@@ -1,5 +1,8 @@
 <b> [<<Home](../Readme.md) </b>
 
+- [Console Input](#console-input)
+
+
 # Console Input
 
 ```rust

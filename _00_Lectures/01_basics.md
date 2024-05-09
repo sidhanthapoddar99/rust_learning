@@ -1,6 +1,15 @@
 
 <b> [<<Home](../Readme.md) </b>
 
+
+- [Static Typing vs Dynamic Typing](#static-typing-vs-dynamic-typing)
+- [Basic of rust](#basic-of-rust)
+- [What can we make with rust](#what-can-we-make-with-rust)
+- [Resources](#resources)
+- [Basic Syntax](#basic-syntax)
+- [How to compile](#how-to-compile)
+
+
 # Static Typing vs Dynamic Typing
 
 - **Static Typing**: The type of a variable is known at compile time. Eg: C, C++, Rust, Java, TypeScript

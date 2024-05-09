@@ -1,9 +1,13 @@
-fn main() {
-    
+fn main(){
     let s1 = String::from("hello");
-    let s2 = s1;
-
-    // println!("s1: {}", s1); // error: value borrowed here after move
-    println!("s2: {}", s2);
-
-}
+  
+    let len = calculate_length(s1);
+  
+    println!("The length of '{}' is {}", s1, len);
+  }
+  
+  fn calculate_length(s: String) -> usize
+  {
+    let length = s.len(); // len() returns the length of a string
+    length
+  }

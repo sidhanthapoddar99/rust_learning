@@ -1,6 +1,16 @@
 
 <b> [<<Home](../Readme.md) </b>
 
+
+- [Rust tools](#rust-tools)
+- [Cargo](#cargo)
+  - [create new project](#create-new-project)
+  - [build project](#build-project)
+  - [run project](#run-project)
+  - [cargo check](#cargo-check)
+  - [can we do cargo run without building?](#can-we-do-cargo-run-without-building)
+
+
 # Rust tools
 
 Cargo is the Rust package manager. Most Rustaceans use it to manage their Rust projects because Cargo handles a lot of tasks for you, such as building your code, downloading the libraries your code depends on, and building those libraries.
