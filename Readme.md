@@ -10,4 +10,7 @@ onenote:https://d.docs.live.net/780de7e618901216/Documents/OneNote%20Notebooks/D
 6. [Condition Flow](./_00_Lectures/06_condition_flow.md)
 7. [Functions](./_00_Lectures/07_functions_expression_statement.md)
 8. [Memory Management and Ownership](./_00_Lectures/08_memory_management_and_ownership.md)
-99. [Rust vs Python](./_00_Lectures/09_rust_vs_python.md)
+9. [Structure Related Data](./_00_Lectures/09_structure.md)
+10. [Enumerations and Pattern Matching](./_00_Lectures/10_enumerations_and_pattern_matching.md)
+
+11. [Rust vs Python](./_00_Lectures/09_rust_vs_python.md)
