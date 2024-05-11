@@ -5,6 +5,7 @@
 - [Returning Values](#returning-values)
 - [Pass by Reference](#pass-by-reference)
 - [Mutable References](#mutable-references)
+- [Passing Optional Variables](#passing-optional-variables)
 - [Statenments and Expressions](#statenments-and-expressions)
 - [Other note](#other-note)
 
@@ -112,6 +113,20 @@ fn main(){
 }
 
 ```
+# Passing Optional Variables
+
+Rust allows for optional variables to be passed to functions. This is done by using the `Option` enum. The `Option` enum has two variants: `Some` and `None`. The `Some` variant is used to pass a value, and the `None` variant is used to pass nothing.
+
+```rust
+fn some_function(x: Option<i32>){
+  match x{
+    Some(i) => println!("The value of x is: {}", i),
+    None => println!("No value passed"),
+  }
+}
+```
+
+
 
 # Statenments and Expressions
 
