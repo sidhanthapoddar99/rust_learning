@@ -46,6 +46,7 @@
 4. Learning https://www.youtube.com/playlist?list=PLzMcBGfZo4-nyLTlSRBvo0zjSnCnqjHYQ
 5. Playlist https://www.youtube.com/playlist?list=PLVvjrrRCBy2JSHf9tGxGKJ-bYAN_uDCUL
 6. Therory https://www.youtube.com/playlist?list=PLai5B987bZ9CoVR-QEIN9foz4QCJ0H2Y8
+7. Cheat Sheet https://cheats.rs/
 
 # Basic Syntax
 
